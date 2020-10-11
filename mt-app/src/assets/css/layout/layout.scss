@@ -1,0 +1,30 @@
+//覆盖elment组件的初始设置
+.layout{
+    width: 100%;
+    background-color: #f8f8f8;
+    // background-color: red;
+    .m-container{
+        .el-header{
+            padding: 0;
+        }
+        .el-main{
+            padding: 0;
+            // margin-top: -20px;
+            overflow: unset;
+        }
+        .el-footer{
+            padding: 0;
+        }
+    }
+
+    .footer{
+        width: 100%;
+    }
+       
+
+}
+.cleaFix::after{
+    content: '';
+    display: block;
+    clear: both;
+}

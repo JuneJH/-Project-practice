@@ -1,0 +1,111 @@
+.change-city{
+    width: 1190px;
+    box-sizing: border-box;
+    margin: 20px auto 0;
+    background-color: #fff;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    min-height: 1000px;
+    padding: 20px;
+    .select-province{
+      padding-bottom: 30px;
+      border-bottom: 1px solid #E5E5E5;
+    }
+    .search{
+      margin-left: 40px;
+      margin-right: 20px;
+    }
+    .show-city{
+      border-bottom: 1px solid #E5E5E5;
+      padding: 30px 0;
+      max-width: 900px;
+      dt{
+        font-size: 16px;
+        color: #333;
+        font-weight: 500;
+        vertical-align: top;
+        display: inline-block;
+      }
+      dd{
+        display: inline-block;
+        font-size: 14px;
+        vertical-align: top;
+        margin-top: 2px;
+        margin: 0 20px;
+        color: #666;
+        cursor: pointer;
+      }
+    }
+    .all-city{
+      padding: 30px 0;
+      .show-case{
+        dt{
+          font-size: 16px;
+          color: #333;
+          font-weight: 500;
+          vertical-align: middle;
+          display: inline-block;
+        }
+        dd{
+          font-size: 14px;
+          vertical-align: middle;
+          display: inline-block;
+          margin-top: 2px;
+          a{
+            font-size: 15px;
+            color: #666;
+            display: inline-block;
+            margin: 0 5px;
+            width: 25px;
+            height: 25px;
+            padding-top: 2px;
+            cursor: pointer;
+            box-sizing: border-box;
+            text-align: center;
+            border-radius: 50%;
+            line-height: 25px;
+            &:hover{
+              font-weight: 500;
+              color: #222222;
+              background: #F8F8F8;
+            }
+          }
+        }
+
+      }
+      .show-all-city{
+        dl{
+          padding: 13px 30px 13px 10px;
+          border-radius: 10px;
+          -webkit-transition: background-color 500ms;
+          -ms-transition: background-color 500ms;
+          transition: background-color 500ms;
+          &:hover{
+            background: #F8F8F8;
+          }
+        }
+        dt{
+          box-sizing: border-box;
+          vertical-align: top;
+          padding-top: 10px;
+          display: inline-block;
+          text-align: center;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          color: #222222;
+          background: #FFD000;
+
+        }
+        dd{
+          display: inline-block;
+          max-width: 1065px;
+          margin: 10px 20px;
+          color: #666;
+          font-size: 14px;
+          cursor: pointer;
+        }
+      }
+     
+    }
+}

@@ -1,0 +1,162 @@
+.register{
+    .header {
+        border-bottom: 2px solid #2bb8aa;
+        min-width: 980px;
+        color: #666;
+    
+        header {
+          margin: 0 auto;
+          padding: 10px 0;
+          width: 980px;
+    
+          .site-logo {
+            display: inline-block;
+            width: 128px;
+            width: 54px;
+            height: 36px;
+            text-indent: -9999px;
+            background-position: -669px -748px;
+            background-image: url(//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-normal.2ee5c09.png);
+          }
+    
+          .login {
+            float: right;
+            height: 36px;
+            line-height: 36px;
+            span{
+                font-size: 14px;
+            }
+            a {
+              padding: 5px 10px;
+              background-color: #2db3a6;
+              color: aliceblue;
+              text-decoration: none;
+              font-size: 12px;
+              font-weight: 400;
+              margin-left: 15px;
+            }
+          }
+    
+          .bold {
+            font-style: normal;
+            font-size: 14px;
+          }
+        }
+      }
+      .register-container{
+        width: 980px;
+        margin: 0 auto 100px;
+        .register-form{
+            display: inline-block;
+            margin-top: 30px;
+            text-align: right;
+            .tip-span{
+                margin-right: 15px;
+            }
+            .password-status{
+                width: 270px;
+                display: inline-block;
+                background: #eee;
+                position: relative;
+                z-index: 1;
+                .color-progress{
+                    width: 0px;
+                    height: 20px;
+                    position: absolute;
+                    top:0;
+                    left: 0;
+                    z-index: -1;
+                    transition: cubic-bezier(0.6, -0.28, 0.735, 0.045) all .6s;
+                    &.weak{
+                        width: 87px;
+                        background-color: #f76120;
+                    }
+                    &.middle{
+                        width: 176px;
+                        background-color: #ff8900;
+                    }
+                    &.strong{
+                        width: 100%;
+                        background-color: #5bab3c;
+                    }
+                }
+                
+                .password-span{
+                    float: left;
+                    text-align: center;
+                    font-size: 12px;
+                    height: 20px;
+                    line-height: 20px;
+                    width: 90px;
+                    border-right: 2px solid #fff;
+                    color: #fff;
+                    box-sizing: border-box;
+                }
+
+            }
+            .username,.password,.repassword{
+                margin:15px 0;
+                box-sizing: border-box;
+                position: relative;
+                .error-msg{
+                    position: absolute;
+                    height: 34px;
+                    line-height: 34px;
+                    left:386px;
+                    top:0;
+                    width: 100%;
+                    text-align: left;
+                    i{
+                        color:#ff8900;
+                        margin: 0 10px;
+                        font-size: 16px;
+                    }
+                    >span{
+                        display: inline-block;
+                        color:#666;
+                    }
+                }
+                input{
+                    width: 270px;
+                    height:34px;
+                    border:1px solid #aaa;
+                    padding: 5px 5px 5px 10px;
+                    font-size: 14px;
+                    color:#666;
+                    box-sizing: border-box;
+                }
+            }
+            .agree-register{
+                margin:15px 0;
+                box-sizing: border-box;
+                text-align: left;
+                display: inline-block;
+                width: 268px;
+                button{
+                    color: #222;
+                    background-image: linear-gradient(135deg,#FFD000 0,#FFBD00 100%);
+                    border-width: 0;
+                    box-shadow: 0 2px 1px rgba(191,105,0,.15);
+                    background-size: 100%;
+                    font-size: 14px;
+                    font-weight: 600;
+                    padding:7px 20px;
+                }
+            }
+        }
+      }
+      .footer--mini{
+        border-top: 1px solid #EEE;
+        padding-top: 20px;
+        text-align: center;
+        margin-top: 20px;
+        p{
+            font-size: 12px;
+            font-family: initial;
+            a{
+                color: #999;
+            }
+        }
+      }
+    
+}
