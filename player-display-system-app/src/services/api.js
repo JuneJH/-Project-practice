@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-    // baseURL: 'http://192.168.0.105:12306/',
+    baseURL: 'test',
     // baseURL:"http://121.36.51.141:12306/"
 });
 //后端接口
